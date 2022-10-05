@@ -1,0 +1,64 @@
+body {
+    overflow: hidden;
+}
+h1.eezie-logo { 
+     font-family: 'Aeonik TRIAL';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 50px;
+     color: #03045E;
+     margin-block-end: 0;
+     line-height: 1;
+}
+a.eezie-nav-links {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #03045E;
+    text-decoration: none;
+}
+div.button {
+    background-color: #03045E;
+    color: white;
+}
+div.createbutton {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px; 
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+input.searchbox {
+    box-sizing: border-box;
+    width: 360px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #03045E;
+    border-radius: 10px;
+}
+div.about {
+    width: 1456px;
+    height: auto;
+    background: #EAF3FA;
+}
+h1.illustration-body { 
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    color: #03045E;
+    margin-block-end: 0;
+    line-height: 1;
+} 
+.illustration-text {
+     font-family: 'Aeonik TRIAL';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 29px;
+     color: #03045E;
+}
