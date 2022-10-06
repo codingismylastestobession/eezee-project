@@ -1,44 +1,73 @@
-body {
-    overflow: hidden;
-}
-h1.eezie-logo { 
+a.eezie-logo { 
      font-family: 'Aeonik TRIAL';
      font-style: normal;
      font-weight: 700;
-     font-size: 50px;
+     font-size: 40px;
      color: #03045E;
      margin-block-end: 0;
      line-height: 1;
+     text-decoration: none;
+     cursor:pointer;
 }
 a.eezie-nav-links {
     font-family: 'Aeonik TRIAL';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     color: #03045E;
     text-decoration: none;
 }
-div.button {
-    background-color: #03045E;
-    color: white;
+.nav-show {
+    display: block;
 }
-div.createbutton {
-    font-family: 'Aeonik TRIAL';
-    font-style: normal;
-    font-weight: 700;
+a#nav-expand-btn {
+    font-weight: 400;
     font-size: 20px;
-    line-height: 29px; 
+    color: #03045E;
+    border-bottom: none;
+}
+a.eezie-nav-links:hover {
+    border-bottom: 3px solid #03045E;
+}
+a.eezie-nav-links:active {
+    border-bottom: 3px solid #03045E;
+}
+button.buttons {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 10px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
     color: white;
-    padding: 15px;
+    background-color: #03045E;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+div.buttons {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    color: white;
+    background-color: #03045E;
+    width: 250px;
 }
 input.searchbox {
     box-sizing: border-box;
-    width: 360px;
-    height: 50px;
+    width: 220px;
+    height: 40px;
     background: #FFFFFF;
     border: 1px solid #03045E;
     border-radius: 10px;
+}
+input.searchbox::placeholder {
+    font-family: 'Aeonik TRIAL';
+    font-style: italic;
+    font-weight: 400;
+    color: #03045E;
 }
 div.about {
     width: 1456px;
@@ -61,4 +90,12 @@ h1.illustration-body {
      font-size: 20px;
      line-height: 29px;
      color: #03045E;
+     max-width: 90%;
+}
+div.cards {
+    max-width: 90%;
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
 }
