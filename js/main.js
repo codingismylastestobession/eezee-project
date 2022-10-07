@@ -9,3 +9,12 @@ else {
     navItems.style.display = "none"
 }
 });
+
+document.addEventListener("scroll", function() {
+    if (navItems.style.display === "block") {
+        navItems.style.display = "none";
+        }
+    else {
+        return;
+    }
+})
