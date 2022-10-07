@@ -139,8 +139,19 @@ input#submit {
     font-weight: 600;
     letter-spacing: 0.03em;
 }
-
-
 input#firstname::placeholder, input#lastname::placeholder, input#phone::placeholder, input#email::placeholder, textarea#question::placeholder {
     color: rgb(236, 236, 236);
+}
+div.offices {
+    background: rgba(0, 119, 182, 0.25);
+    height: auto;
+}
+.getintouch-body {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #03045E;
+    margin-block-end: 0;
+    line-height: 1;
 }
