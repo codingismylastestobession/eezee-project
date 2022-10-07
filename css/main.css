@@ -127,7 +127,7 @@ input#firstname, input#lastname, input#phone, input#email, textarea#question {
     border: 2px solid white;
     font-family: Aeonik TRIAL;
     font-weight: 300;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.03em;
 }
 textarea#question {
     height: 200px;
