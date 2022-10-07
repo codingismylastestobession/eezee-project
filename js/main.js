@@ -9,12 +9,3 @@ else {
     navItems.style.display = "none"
 }
 });
-
-navItems.addEventListener("mouseleave", function() {
-    if (navItems.style.display === "block") {
-        navItems.style.display = "none";
-        }
-    else {
-        return;
-    }
-})
