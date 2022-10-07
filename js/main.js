@@ -5,11 +5,11 @@ navItems.style.display = "none";
 navExpandBtn.addEventListener("click", function() {
 if (navItems.style.display === "none") {
     navItems.style.display = "block";
-    navMainBtn.className = "fa-solid fa-xmark"
+    navExpandBtn.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
     }
 else {
     navItems.style.display = "none"
-    navMainBtn.className = "fa-solid fa-bars"
+    navExpandBtn.innerHTML = `<i class="fa-solid fa-bars"></i>`;
 }
 });
 console.log(navBtn.attributes)
