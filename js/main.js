@@ -10,7 +10,7 @@ else {
 }
 });
 
-document.addEventListener("scroll", function() {
+navItems.addEventListener("mouseleave", function() {
     if (navItems.style.display === "block") {
         navItems.style.display = "none";
         }
