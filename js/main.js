@@ -12,4 +12,3 @@ else {
     navExpandBtn.innerHTML = `<i class="fa-solid fa-bars"></i>`;
 }
 });
-console.log(navBtn.attributes)

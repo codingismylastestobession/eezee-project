@@ -23,7 +23,7 @@
                 <a href="" class="eezie-nav-links px-3 py-2 py-lg-0 d-block d-lg-inline-block">About</a>
                 <a href="" class="eezie-nav-links px-3 py-2 py-lg-0 d-block d-lg-inline-block">Join<i class="fa-solid fa-caret-down ps-2" style="font-size: 20px;"></i></a>
                 <div class="ms-lg-5 d-block d-lg-inline-block py-2 py-lg-0 text-center text-lg-start">
-                    <input type="text" class="searchbox my-auto border-light" placeholder="Search our site...">
+                    <input type="search" class="searchbox my-auto border-light" placeholder="Search our site...">
                     <button class="buttons border-0" style="width:auto;">Search</button>
                 </div>
             </div>
@@ -74,8 +74,47 @@
                 </div>
             </div>
         </div>
-        <div class="row w-100">
+        <div class="row w-100 m-0">
             <div class="btn buttons my-5 mx-auto">Create Free Account</div>
+        </div>
+    </div>
+    <div class="container-fluid questions-form w-100 p-0 mt-4">
+        <div class="w-100 py-5 questions px-4 px-lg-5">
+            <h2 class="text-center text-lg-start">Have any questions?</h2>
+            <p class="text-center text-lg-start mb-2">
+                Fill in this form and we’ll get back to you within 1-2 business days.
+            </p>
+            <form action="" class="w-100 mx-auto mt-5">
+                    <div class="row w-100 pb-4">
+                        <div class="firstname col-6 mx-auto d-inline-block">
+                            <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                        </div>
+                        <div class="lastname col-6 mx-auto d-inline-block">
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row w-100 pb-4">
+                        <div class="email col-6 mx-auto d-inline-block">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="phone col-6 mx-auto d-inline-block">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone No.">
+                        </div>
+                    </div>
+                    <div class="row w-100 pb-4">
+                        <div class="country col-6 d-inline-block">
+                            <input type="text" class="form-control" id="firstname" placeholder="Country">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="question" class="form-label">Question</label>
+                        <textarea class="form-control my-2" id="question" placeholder="Write your question here"></textarea>
+                    </div>
+                    <div class="col-12 text-center pt-3">
+                        <input type="submit" class="btn" id="submit" value="Submit" />
+                    </div>
+
+            </form>
         </div>
     </div>
 
