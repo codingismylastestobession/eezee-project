@@ -122,7 +122,6 @@ div.questions p {
 }
 
 input#firstname, input#lastname, input#phone, input#email, textarea#question {
-    background-color: #03045E;
     color: white;
     border: 2px solid white;
     font-family: Aeonik TRIAL;
@@ -144,7 +143,6 @@ input#firstname::placeholder, input#lastname::placeholder, input#phone::placehol
 }
 div.offices {
     background: rgba(0, 119, 182, 0.25);
-    height: auto;
 }
 .getintouch-body {
     font-family: 'Aeonik TRIAL';
@@ -154,4 +152,42 @@ div.offices {
     color: #03045E;
     margin-block-end: 0;
     line-height: 1;
+}
+.mailinglist-body {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #03045E;
+    margin-block-end: 0;
+    line-height: 1;
+}
+div.mail-list {
+    background: rgba(0, 119, 182, 0.4)
+}
+input#email-submit {
+    background-color: #03045E;
+    color: white;
+    font-family: Aeonik TRIAL;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+input#email-list {
+    color: black;
+    border: 1px solid black;
+    font-family: Aeonik TRIAL;
+    font-weight: 300;
+    letter-spacing: 0.03em;    
+}
+input#email-list::placeholder {
+    color: black;
+}
+.mailinglist-footer {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(3, 4, 94, 0.7);
+    margin-block-end: 0;
+    line-height: 1;   
 }
