@@ -99,6 +99,9 @@ div.cards {
     font-weight: 400;
     font-size: 20px;
 }
+div.front-card {
+    z-index: 2;
+}
 div.questions-form {
     background-color: #03045E;
     color: white;
