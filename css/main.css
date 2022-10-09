@@ -1,0 +1,196 @@
+a.eezie-logo { 
+     font-family: 'Aeonik TRIAL';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     color: #03045E;
+     margin-block-end: 0;
+     line-height: 1;
+     text-decoration: none;
+     cursor:pointer;
+}
+a.eezie-nav-links {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #03045E;
+    text-decoration: none;
+}
+.nav-show {
+    display: block;
+}
+a#nav-expand-btn {
+    font-weight: 400;
+    font-size: 20px;
+    color: #03045E;
+    border-bottom: none;
+}
+a.eezie-nav-links:hover {
+    border-bottom: 3px solid #03045E;
+}
+a.eezie-nav-links:active {
+    border-bottom: 3px solid #03045E;
+}
+button.buttons {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    color: white;
+    background-color: #03045E;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+div.buttons {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    color: white;
+    background-color: #03045E;
+    width: 250px;
+}
+input.searchbox {
+    box-sizing: border-box;
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #03045E;
+    border-radius: 10px;
+}
+input.searchbox::placeholder {
+    font-family: 'Aeonik TRIAL';
+    font-style: italic;
+    font-weight: 400;
+    color: #03045E;
+}
+div.about {
+    width: 1456px;
+    height: auto;
+    background: #EAF3FA;
+}
+h1.illustration-body { 
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    color: #03045E;
+    margin-block-end: 0;
+    line-height: 1;
+} 
+.illustration-text {
+     font-family: 'Aeonik TRIAL';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 29px;
+     color: #03045E;
+     max-width: 90%;
+}
+div.cards {
+    max-width: 90%;
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+div.front-card {
+    z-index: 2;
+}
+div.questions-form {
+    background-color: #03045E;
+    color: white;
+    height: auto;
+}
+div.questions h2 {
+    font-family: Aeonik TRIAL;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+div.questions p {
+    font-family: Aeonik TRIAL;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+input#firstname, input#lastname, input#phone, input#email, textarea#question {
+    color: white;
+    border: 2px solid white;
+    font-family: Aeonik TRIAL;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+}
+textarea#question {
+    height: 200px;
+}
+input#submit {
+    color: #03045E;
+    background-color: white;
+    font-family: Aeonik TRIAL;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+input#firstname::placeholder, input#lastname::placeholder, input#phone::placeholder, input#email::placeholder, textarea#question::placeholder {
+    color: rgb(236, 236, 236);
+}
+div.offices {
+    background: rgba(0, 119, 182, 0.25);
+}
+.getintouch-body {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #03045E;
+    margin-block-end: 0;
+    line-height: 1;
+}
+.mailinglist-body {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #03045E;
+    margin-block-end: 0;
+    line-height: 1;
+}
+div.mail-list {
+    background: rgba(0, 119, 182, 0.4)
+}
+input#email-submit {
+    background-color: #03045E;
+    color: white;
+    font-family: Aeonik TRIAL;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+input#email-list {
+    color: black;
+    border: 1px solid black;
+    font-family: Aeonik TRIAL;
+    font-weight: 300;
+    letter-spacing: 0.03em;    
+}
+input#email-list::placeholder {
+    color: black;
+}
+.mailinglist-footer {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(3, 4, 94, 0.7);
+    margin-block-end: 0;
+    line-height: 1;   
+}
