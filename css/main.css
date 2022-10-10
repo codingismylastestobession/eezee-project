@@ -16,9 +16,30 @@ a.eezie-nav-links {
     font-size: 20px;
     color: #03045E;
     text-decoration: none;
+    cursor: pointer;
 }
 .nav-show {
     display: block;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }  
+.show {display:block;}
+.dropbtn {
+    cursor: pointer;
 }
 a#nav-expand-btn {
     font-weight: 400;
@@ -99,9 +120,6 @@ div.cards {
     font-weight: 400;
     font-size: 20px;
 }
-div.front-card {
-    z-index: 2;
-}
 div.questions-form {
     background-color: #03045E;
     color: white;
@@ -123,7 +141,6 @@ div.questions p {
     letter-spacing: 0em;
     text-align: left;
 }
-
 input#firstname, input#lastname, input#phone, input#email, textarea#question {
     color: white;
     border: 2px solid white;
@@ -193,4 +210,42 @@ input#email-list::placeholder {
     color: rgba(3, 4, 94, 0.7);
     margin-block-end: 0;
     line-height: 1;   
+}
+div.footer-elements {
+    max-width: 95%;
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #03045E;
+}
+.footer-body {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #03045E;
+    margin-block-end: 0;
+    line-height: 1;  
+}
+.eezie-footer-links {
+    font-family: 'Aeonik TRIAL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #03045E;
+    opacity: 0.6;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+.footer-links-body {
+    font-weight: 600;
+    opacity: 1;
+    cursor: text;
+}
+@media (max-width: 992px) {
+    div.footer-elements {
+        max-width: 85%;
+    }
 }
