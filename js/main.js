@@ -1,5 +1,4 @@
 var navExpandBtn = document.getElementById("nav-expand-btn");
-var navMainBtn = document.getElementById("navBtn");
 var navItems = document.getElementById("nav-items");
 navItems.style.display = "none";
 navExpandBtn.addEventListener("click", function() {
